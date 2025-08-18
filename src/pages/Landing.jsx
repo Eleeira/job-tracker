@@ -24,7 +24,7 @@ export default function Landing({ onStart, repoUrl = "#" }) {
             <a
               href={repoUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="https://eleeira.github.io/job-tracker/"
               className="rounded-xl border border-black/10 bg-white px-5 py-3 font-semibold hover:bg-zinc-50
                          dark:border-white/10 dark:bg-gray-900 dark:hover:bg-gray-800"
             >
