@@ -1,7 +1,7 @@
 // src/pages/Landing.jsx
 import { useI18n } from "../i18n.jsx";
 
-export default function Landing({ onStart, repoUrl = "#" }) {
+export default function Landing({ onStart, repoUrl = "https://github.com/Eleeira/job-tracker" }) {
   const { t } = useI18n();
 
   return (
@@ -24,7 +24,7 @@ export default function Landing({ onStart, repoUrl = "#" }) {
             <a
               href={repoUrl}
               target="_blank"
-              rel="https://eleeira.github.io/job-tracker/"
+              rel="noopener noreferrer"
               className="rounded-xl border border-black/10 bg-white px-5 py-3 font-semibold hover:bg-zinc-50
                          dark:border-white/10 dark:bg-gray-900 dark:hover:bg-gray-800"
             >

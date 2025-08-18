@@ -162,7 +162,7 @@ export default function App() {
         ) : (
           // ======= LANDING =======
           <div className="mx-auto w-full">
-            <Landing onStart={openApp} repoUrl="#" />
+            <Landing onStart={openApp} repoUrl="https://github.com/Eleeira/job-tracker" />
           </div>
         )}
       </main>
