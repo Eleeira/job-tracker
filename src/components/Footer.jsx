@@ -1,6 +1,6 @@
 import { useI18n } from "../i18n.jsx";
 
-const REPO_URL = "#"; 
+const REPO_URL = "https://github.com/Eleeira/job-tracker"; 
 
 export default function Footer() {
   const { t } = useI18n();
@@ -16,15 +16,7 @@ export default function Footer() {
           <span>·</span>
           <span>{t("all_rights_reserved")}</span>
         </div>
-
-        <nav className="flex flex-wrap items-center gap-4">
-          <a
-            href="#"
-            aria-label={t("privacy")}
-            className="hover:underline"
-          >
-            {t("privacy")}
-          </a>
+    
           <a
             href={REPO_URL}
             target="_blank"
